@@ -1,0 +1,74 @@
+.sidePanel{
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    border-radius: 60px;
+}
+
+.rightPanel{
+    background: rgb(56,60,79);
+    background: linear-gradient(192deg, rgba(56,60,79,1) 31%, rgba(0,0,0,0) 100%);
+    right: -4%;
+    position: fixed;
+}
+
+.songLogo{
+    width: 78%;
+    height: 297px;
+    border-radius: 18px;
+    margin: 30px 0 0 20px;
+    background-color: #6E7B9C;
+}
+
+.rightPanel h1{
+    background: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0 130px;
+}
+
+.rightPanel h3{
+    background: none;
+    color: white;
+    margin: 30px 0 0 280px;
+    font-size: 13px;
+}
+
+.activeSong{
+    display: flex;
+    background: none;
+    width: 80%;
+    height: 15%;
+    margin: 4% 3.5%;
+    
+}
+
+.playButton{
+    background: none;
+    position: relative;
+    width: 6%;
+    height: 20%;
+    top: 19%;
+    left: 12%;
+    
+}
+
+.activeSongSliderBase{
+    width: 70%;
+    height: 18%;
+    background-color: #CCE6D2;
+    border-radius: 5px;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+
+.activeSongSliderLine{
+    width: 95%;
+    height: 35%;
+    background-color: #12497B;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}

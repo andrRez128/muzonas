@@ -1,0 +1,39 @@
+*{
+    background-color: #26272C;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 20px 15px;
+}
+
+.logoHeader{
+    width: 200px;
+    height: auto;
+}
+
+.search input{
+    border-radius: 25px;
+    border: none;
+    width: 450px;
+    height: 35px;
+    background: rgb(56,60,79);
+    background: linear-gradient(90deg, rgba(56,60,79,1) 51%, rgba(38,39,44,1) 89%);
+    margin: 15px 0 0 270px;
+    padding: 0 20px;
+    color: grey;
+    outline: none;
+}
+
+.contactsHeader{
+    width: 30px;
+    height: auto;
+    margin: 20px 0 0 270px;
+
+}
+
+.logo{
+    margin: 25px 0 0 50px;
+}

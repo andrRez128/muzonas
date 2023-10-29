@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+*{
+    font-family: 'Allerta Stencil', sans-serif;
+    user-select: none;
+}
+
+h1, h5{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h1{
+    margin: 7% 0 0 0;
+}
+
+.regForm{
+    width: 40%;
+    height: 60%;
+    margin: 84px auto;
+}
+
+.regForm input{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    height: 40px;
+    
+}
+
+.regForm input[type='text']{
+    border-radius: 12px;
+    background-color: #383D4F;
+    width: 60%;
+}
+
+.regForm input[type='submit']{
+    width: 20%;
+    background-color: #2C2F40;
+    color: white;
+    border-radius: 28px;
+    font-size: 15px ;
+}
+
+
+.regForm input::placeholder{
+    padding-left: 7px;
+}
+

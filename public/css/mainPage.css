@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+*{
+    font-family: 'Allerta Stencil', sans-serif;
+    user-select: none;
+}
+
+.leftPanelEl{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    left: 30%;
+    display: flex;
+}
+
+.leftPanel img{
+    margin-left: 15%;
+}
+
+.leftPanelEl h3{
+    margin: 5px 0 0 10%;
+    background: none;
+    color: #FFFF;
+    font-size: 14px;
+}
+
+.favTrack{
+    top: 5%;
+}
+
+.settings{
+    top: 55%;
+}
+
+.lang{
+    top: 63%;
+}
+
+.leftPanel{
+    background: rgb(56,60,79);
+    background: linear-gradient(168deg, rgba(56,60,79,1) 8%, rgba(0,0,0,0) 100%);
+    left:-10%;
+}
+
+.centralPanel{
+    width: 54%;
+    height: auto;
+    margin: 0 0 0 20%;
+    color: white;
+}
+
+.centralPanel h6{
+    text-align: right;
+    margin: 0 3% 0 0;
+    color: grey;
+}
+
+.line{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    ;
+}
+
+
+
+.genreBlock{
+    width: 25%;
+    height: 120px;
+    background-color: rgb(21, 156, 156);
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.genreBlock img{
+    margin: 10% 0 0 60%;
+    background: none;
+    width: 28%;
+    height: auto; 
+}
+
+.genreBlock h3{
+    background: none;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.genreBlock1{
+    background-color: #2FD17A;
+}
+
+.genreBlock2{
+    background-color: #D1A42F;
+}
+
+.genreBlock3{
+    background-color: #773C93;
+}
+
+.genreBlock4{
+    background-color: #DF2424;
+}
+
+.genreBlock5{
+    background-color: #249CDF;
+}
+
+.genreBlock6{
+    background-color: #3EDF24;
+}
